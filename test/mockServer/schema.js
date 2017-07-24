@@ -7,7 +7,7 @@
 // There are some utility methods defined on this object to make searching
 // the schema easier. They are defined at the end of this file.
 
-const RDN = require('ldapjs/lib/dn').RDN
+const RDN = require('@invisr/ldapjs/lib/dn').RDN
 
 const groupCategory = 'CN=Group,CN=Schema,CN=Configuration,DC=domain,DC=com'
 const personCategory = 'CN=Person,CN=Schema,CN=Configuration,DC=domain,DC=com'

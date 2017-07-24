@@ -1,7 +1,7 @@
 'use strict'
 
 const util = require('util')
-const ldap = require('ldapjs')
+const ldap = require('@invisr/ldapjs')
 const FakeRDN = require('./FakeRDN')
 
 /**
@@ -35,7 +35,7 @@ FakeDN.prototype.toString = function toString () {
   return this.rdns[0].attrs.dn.value
 }
 
-const realParse = require('ldapjs/lib/dn').parse
+const realParse = require('@invisr/ldapjs/lib/dn').parse
 FakeDN.parse = function parse (name) {
   if (name === 'AnInvalidUsername') {
     return new FakeDN(

@@ -1,9 +1,9 @@
 'use strict'
 
 const util = require('util')
-const Parser = require('ldapjs/lib/messages').Parser
-const Protocol = require('ldapjs/lib/protocol')
-const errors = require('ldapjs/lib/errors')
+const Parser = require('@invisr/ldapjs/lib/messages').Parser
+const Protocol = require('@invisr/ldapjs/lib/protocol')
+const errors = require('@invisr/ldapjs/lib/errors')
 const dnParse = require('./FakeDN').parse
 const getResponse = require('./getResponse')
 const setupConnection = require('./setupConnection')

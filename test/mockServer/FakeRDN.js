@@ -1,7 +1,7 @@
 'use strict'
 
 const util = require('util')
-const ldap = require('ldapjs')
+const ldap = require('@invisr/ldapjs')
 
 /**
  * <p>Implements ldapjs.RDN which is the core of every ldapjs.DN object.

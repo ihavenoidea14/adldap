@@ -2,7 +2,7 @@
 
 const FakeDN = require('./FakeDN')
 const FakeRDN = require('./FakeRDN')
-const dn = require('ldapjs/lib/dn')
+const dn = require('@invisr/ldapjs/lib/dn')
 const DN = dn.DN
 
 let log

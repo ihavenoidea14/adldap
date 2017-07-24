@@ -1,6 +1,6 @@
 'use strict'
 
-const ldap = require('ldapjs')
+const ldap = require('@invisr/ldapjs')
 
 // This is a simple authentication method so that we can catch the various
 // username types used during testing and return the appropriate responses.

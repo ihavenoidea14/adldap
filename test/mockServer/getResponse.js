@@ -1,17 +1,17 @@
 'use strict'
 
-const Protocol = require('ldapjs/lib/protocol')
-const AbandonResponse = require('ldapjs/lib/messages/abandon_response')
-const AddResponse = require('ldapjs/lib/messages/add_response')
-const BindResponse = require('ldapjs/lib/messages/bind_response')
-const CompareResponse = require('ldapjs/lib/messages/compare_response')
-const DeleteResponse = require('ldapjs/lib/messages/del_response')
-const ExtendedResponse = require('ldapjs/lib/messages/ext_response')
-const ModifyResponse = require('ldapjs/lib/messages/modify_response')
-const ModifyDNResponse = require('ldapjs/lib/messages/moddn_response')
-const SearchRequest = require('ldapjs/lib/messages/search_request')
-const SearchResponse = require('ldapjs/lib/messages/search_response')
-const UnbindResponse = require('ldapjs/lib/messages/unbind_response')
+const Protocol = require('@invisr/ldapjs/lib/protocol')
+const AbandonResponse = require('@invisr/ldapjs/lib/messages/abandon_response')
+const AddResponse = require('@invisr/ldapjs/lib/messages/add_response')
+const BindResponse = require('@invisr/ldapjs/lib/messages/bind_response')
+const CompareResponse = require('@invisr/ldapjs/lib/messages/compare_response')
+const DeleteResponse = require('@invisr/ldapjs/lib/messages/del_response')
+const ExtendedResponse = require('@invisr/ldapjs/lib/messages/ext_response')
+const ModifyResponse = require('@invisr/ldapjs/lib/messages/modify_response')
+const ModifyDNResponse = require('@invisr/ldapjs/lib/messages/moddn_response')
+const SearchRequest = require('@invisr/ldapjs/lib/messages/search_request')
+const SearchResponse = require('@invisr/ldapjs/lib/messages/search_response')
+const UnbindResponse = require('@invisr/ldapjs/lib/messages/unbind_response')
 
 // This is a copy and paste of the ldapjs implementation.
 
